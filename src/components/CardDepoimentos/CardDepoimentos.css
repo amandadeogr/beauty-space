@@ -1,0 +1,43 @@
+.depoiments-container {
+   background-color: #c29ea4;
+   border-radius: 10px;
+   box-shadow: 0 0 3rem #a8858a;
+   margin: 4rem ;
+   padding: 2rem;
+   width: 80%;
+}
+
+.depoiments-body {
+   align-items: start;
+   display: flex;
+   padding: 1rem;
+}
+
+.depoiments-icon {
+   width: 1rem;
+}
+
+.depoiments-description {
+   font-size: 1.1rem;
+   font-weight: 200;
+}
+
+.depoiments-author {
+   align-items: center;
+   display: flex;
+   justify-content: flex-end;
+   padding: 0 1rem;
+}
+
+.depoiments-author img {
+   background: linear-gradient(#C5796D, #DBE6F6) padding-box, linear-gradient(to right, #312736, #d4838f) border-box;
+   border: 2px solid transparent;
+   border-radius: 100%;
+   width: 2.5rem;
+}
+
+.depoiments-author h4 {
+   font-size: .9rem;
+   margin-left: .1rem;
+   width: 4rem;
+}
