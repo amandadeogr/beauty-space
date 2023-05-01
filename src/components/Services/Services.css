@@ -1,0 +1,15 @@
+.services {
+   margin: 11rem auto;
+   text-align: center;
+   width: 70%;
+}
+
+.services-cards {
+   display: flex;
+   justify-content: space-evenly;
+   margin: 4rem 0;
+}
+
+.services-title {
+   font-weight: 300;
+}
