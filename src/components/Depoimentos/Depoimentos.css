@@ -1,0 +1,15 @@
+.depoiments {
+   margin: 5rem auto;
+   text-align: center;
+   width: 75%;
+}
+
+.depoiments-title {
+   font-weight: 300;
+}
+
+.container {
+   display: flex;
+   overflow-x: scroll;
+   width: 100%;
+}
