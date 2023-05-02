@@ -1,0 +1,16 @@
+.formulario {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   height: 65vh;
+   padding: 1rem;
+}
+
+.text-area {
+   border: none;
+   border-radius: 5px;
+   margin: .3rem 0;
+   outline: none;
+   padding: 1rem;
+   width: 20rem;
+}

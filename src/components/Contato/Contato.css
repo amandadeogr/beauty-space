@@ -1,0 +1,16 @@
+
+.contato {
+   align-items: center;
+   display: flex;
+   height: 100vh;
+   justify-content: space-between;
+   margin: 5rem auto 0;
+   padding: 2rem;
+   width: 70%;
+}
+
+.image {
+   height: 100vh;
+   padding-top: 5rem;
+   width: 75%;
+}
