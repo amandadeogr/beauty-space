@@ -1,8 +1,13 @@
 import './Button.css';
 
-const Button = () => {
+interface Props {
+   message: string,
+}
+
+const Button = ({message} : Props) => {
+
    return (
-      <button className='btn'>Agende seu horário</button>
+      <button className='btn'>{message}</button>
    )
 }
 
