@@ -1,43 +1,44 @@
 import './Services.css';
 import Card from "../Card";
 
-import image1 from '../../assets/chapinha.jpg';
-import image2 from '../../assets/corte-cabelo.jpg';
-import image3 from '../../assets/massagem.png';
-import image4 from '../../assets/manicure.jpeg';
-import image5 from '../../assets/pedicure.jpg';
+import cabelo from '../../assets/cabelo.png';
+import manicure from '../../assets/manicure.png';
+import pedicure from '../../assets/pedicure.png';
+import massagem from '../../assets/massagem.png';
+import skincare from '../../assets/skincare.png';
+import aromaterapia from '../../assets/aromaterapia.png'
 
 const items = [
    {
-      image: image1,
-      alt: 'Cabelo comprido sendo alisado com uma chapinha',
-      title: 'Alisamentos',
-      description: 'Diversos tipos de alisamentos',
-   },
-   {
-      image: image2,
-      alt: 'Cabelo sendo cortado com uma tesoura',
-      title: 'Cortes',
-      description: 'Diversos tipos de cortes de cabelo',
-   },
-   {
-      image: image3,
-      alt: 'Maos massageando um corpo feminino',
-      title: 'Massagem',
-      description: 'Diversos tipos de massagem',
-   },
-   {
-      image: image4,
+      image: manicure,
       alt: 'Dois pares de mãos femininas, um par com luvas rosa e a outra sem luvas',
-      title: 'Manicure',
-      description: 'Diversos tipos de manicure',
+      title: 'Manicure e Nail Designer',
    },
    {
-      image: image5,
+      image: pedicure,
       alt: 'Pés sendo lavado em uma banheira',
       title: 'Pedicure',
-      description: 'Diversos tipos de pedicure',
    },
+   {
+      image: cabelo,
+      alt: 'Cabelo comprido sendo alisado com uma chapinha',
+      title: 'Tratamentos Capilares',
+   },
+   {
+      image: massagem,
+      alt: 'Maos massageando um corpo feminino',
+      title: 'Massagens Terapêuticas',
+   },
+   {
+      image: skincare,
+      alt: 'Pés sendo lavado em uma banheira',
+      title: 'Skin Care',
+   },
+   {
+      image: aromaterapia,
+      alt: 'Pés sendo lavado em uma banheira',
+      title: 'Aromaterapia',
+   }
 ]
 
 const Services = () => {
@@ -48,7 +49,7 @@ const Services = () => {
             {
                items.map( (items) => {
                   return (
-                     <Card image={items.image} alt={items.alt} title={items.title} description={items.description}/>
+                     <Card image={items.image} alt={items.alt} title={items.title}/>
                   )
                })
             }

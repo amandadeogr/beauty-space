@@ -5,8 +5,10 @@
 }
 
 .services-cards {
+   align-items: baseline;
    display: flex;
    justify-content: space-evenly;
+   flex-wrap: wrap;
    margin: 4rem 0;
 }
 
