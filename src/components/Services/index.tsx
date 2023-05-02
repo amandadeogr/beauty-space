@@ -11,32 +11,32 @@ import aromaterapia from '../../assets/aromaterapia.png'
 const items = [
    {
       image: manicure,
-      alt: 'Dois pares de mãos femininas, um par com luvas rosa e a outra sem luvas',
+      alt: 'ilustração de uma mão feminina',
       title: 'Manicure e Nail Designer',
    },
    {
       image: pedicure,
-      alt: 'Pés sendo lavado em uma banheira',
+      alt: 'ilustração de um pé',
       title: 'Pedicure',
    },
    {
       image: cabelo,
-      alt: 'Cabelo comprido sendo alisado com uma chapinha',
+      alt: 'ilustração de uma pessoa de lado e com cabelos compridos',
       title: 'Tratamentos Capilares',
    },
    {
       image: massagem,
-      alt: 'Maos massageando um corpo feminino',
+      alt: 'ilustração de uma pessoa deitada recebendo uma massagem nas costas',
       title: 'Massagens Terapêuticas',
    },
    {
       image: skincare,
-      alt: 'Pés sendo lavado em uma banheira',
+      alt: 'ilustração de um rosto brilhando devido a um tratamento cosmético',
       title: 'Skin Care',
    },
    {
       image: aromaterapia,
-      alt: 'Pés sendo lavado em uma banheira',
+      alt: 'ilustração de uma flor acompanhada de um aromatizante',
       title: 'Aromaterapia',
    }
 ]
