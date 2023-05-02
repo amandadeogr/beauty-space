@@ -1,0 +1,29 @@
+.footer {
+   align-items: center;
+   background: linear-gradient(#C5796D, #DBE6F6) padding-box, linear-gradient(to right, #86545c, #ce958c, #df8b7e) border-box;
+   border-top: 5px solid transparent;
+   box-shadow: 0 8px 32px 0 #695256;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   padding: 3rem 3rem 1rem;
+}
+
+.top {
+   text-align: center;
+   padding: 0 0 1rem;
+}
+
+.title {
+   font-weight: 400;
+}
+
+.subtitle {
+   font-style: italic;
+   font-weight: 200;
+}
+
+.autoria {
+   font-size: .8rem;
+   padding-top: 2rem;
+}

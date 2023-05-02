@@ -1,0 +1,13 @@
+.redes {
+   display: flex;
+   justify-content: center;
+}
+
+.redes li {
+   margin-top: 1rem;
+   padding: 0 .5rem;
+}
+
+.redes li a img {
+   width: 1.5rem;
+}
