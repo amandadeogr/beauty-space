@@ -8,7 +8,7 @@ const Header = () => {
             <h2 className="logo">MARIA</h2>
             <div className="left">
                <Menu />
-               <Button message="Agende seu horário"/>
+               <Button action="whatsapp" message="Agende seu horário"/>
             </div>
       </header>
    )
