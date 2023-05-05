@@ -2,15 +2,30 @@
    display: flex;
    flex-direction: column;
    justify-content: space-around;
-   height: 65vh;
+   height: 60vh;
    padding: 1rem;
 }
 
 .text-area {
    border: none;
    border-radius: 5px;
-   margin: .3rem 0;
+   margin: .3rem 0 0;
    outline: none;
    padding: 1rem;
    width: 20rem;
+   height: 20vh;
+}
+
+.input {
+   border: none;
+   border-radius: 5px;
+   padding: .8rem 1rem;
+   margin: .3rem 0;
+   outline: none;
+   width: 20rem;
+}
+
+form button {
+   margin-top: .5rem;
+   width: 100%;
 }
