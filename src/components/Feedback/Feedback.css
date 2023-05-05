@@ -1,0 +1,25 @@
+.message {
+   border-radius: 5px;
+   padding: .5rem;
+}
+
+.message p {
+   color: white;
+   font-size: .8rem;
+}
+
+.success {
+   background-color: green;
+}
+
+.warning {
+   background-color: yellow;
+}
+
+.warning p {
+   color: black;
+}
+
+.error {
+   background-color: red;
+}
