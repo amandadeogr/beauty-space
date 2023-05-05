@@ -5,19 +5,19 @@ const Menu = () => {
    const menuLinks = [
    {
       name: 'Home',
-      href: '/'
+      href: '#menu'
    },
    {
       name: 'Especialidades',
-      href: '/especialidades'
+      href: '#especialidades'
    },
    {
       name: 'Depoimentos',
-      href: '/depoimentos'
+      href: '#depoimentos'
    },
    {
       name: 'Contato',
-      href: '/contato'
+      href: '#contato'
    },
 ];
 

@@ -43,7 +43,7 @@ const items = [
 
 const Services = () => {
    return (
-      <section className="services">
+      <section className="services" id='especialidades'>
          <h2 className='services-title'>NOSSAS ESPECIALIDADES</h2>
          <div className='services-cards'>
             {

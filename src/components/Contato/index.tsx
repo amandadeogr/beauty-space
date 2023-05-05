@@ -4,7 +4,7 @@ import Formulario from '../Formulario';
 
 const Contato = () => {
    return (
-      <section className='contato'>
+      <section className='contato' id='contato'>
          <Formulario />
          <img className='image' src={modelo} alt="" />
       </section>
