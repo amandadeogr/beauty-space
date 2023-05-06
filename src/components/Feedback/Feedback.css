@@ -1,25 +1,29 @@
 .message {
-   border-radius: 5px;
+   animation: fadeInAnimation ease 1s;
+   animation-iteration-count: 1;
+   animation-fill-mode: forwards;
    padding: .5rem;
 }
 
 .message p {
-   color: white;
    font-size: .8rem;
+   font-weight: 400;
 }
 
-.success {
-   background-color: green;
+.success p {
+   color: green;
 }
 
-.warning {
-   background-color: yellow;
+
+.warning p, .error p {
+   color: red;
 }
 
-.warning p {
-   color: black;
-}
-
-.error {
-   background-color: red;
+@keyframes fadeInAnimation {
+   0% {
+       opacity: 0.3;
+   }
+   100% {
+       opacity: 1;
+    }
 }
