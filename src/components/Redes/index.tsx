@@ -29,7 +29,7 @@ const Redes = () => {
             sociais.map((rede) => {
                return (
                   <li>
-                     <a href={rede.url}>
+                     <a href={rede.url} target="_blank">
                         <img src={rede.icon} alt={rede.alt} />
                      </a>
                   </li>
