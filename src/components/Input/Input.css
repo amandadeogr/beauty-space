@@ -6,3 +6,9 @@
    outline: none;
    width: 20rem;
 }
+
+@media (max-width: 912px) {
+   .input {
+      width: 100%
+   }
+}
