@@ -1,8 +1,11 @@
 .header {
    align-items: center;
+   background: linear-gradient(to right, #C5796D, #DBE6F6);
    display: flex;
    justify-content: space-around;
-   padding: 2rem 0;
+   padding: 1rem 0;
+   position: fixed;
+   width: 100%;
 }
 
 .left {
