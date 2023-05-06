@@ -1,7 +1,9 @@
 .services {
-   margin: 11rem auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin: auto;
    text-align: center;
-   width: 70%;
 }
 
 .services-cards {
