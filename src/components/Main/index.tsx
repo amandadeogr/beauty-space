@@ -1,13 +1,13 @@
 import Banner from "../Banner"
 import Contato from "../Contato";
 import Depoimentos from "../Depoimentos";
-import Services from "../Services";
+import Especialidades from "../Especialidades";
 
 const Main = () => {
    return (
       <>
          <Banner />
-         <Services />
+         <Especialidades />
          <Depoimentos />
          <Contato />
       </>

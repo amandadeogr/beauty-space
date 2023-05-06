@@ -1,4 +1,4 @@
-import './Services.css';
+import './Especialidades.css';
 import Card from "../Card";
 
 import cabelo from '../../assets/cabelo.png';
