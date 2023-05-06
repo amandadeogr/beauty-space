@@ -51,7 +51,7 @@ const Formulario = () => {
 
   return (
     <div className="formulario">
-      <h2>Entre em Contato</h2>
+      <h2 className="title">Entre em Contato</h2>
       <form className="form" id="form" onSubmit={sendEmail}>
         <Input
           type="text"

@@ -27,3 +27,15 @@ section {
    padding-top: 4rem;
    width: 70%;
 }
+
+@media (max-width: 912px) {
+   section {
+      width: 90%;
+   }
+}
+
+@media (max-width: 540px) {
+   section {
+      height: auto;
+   }
+}

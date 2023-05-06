@@ -52,8 +52,18 @@ const Carrossel = () => {
      speed: 500,
      slidesToShow: 2,
      slidesToScroll: 1,
+
+     responsive: [
+      {
+        breakpoint: 700, // tamanho da tela em que as configurações abaixo se aplicam
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
    };
- 
+   
    return (
      <Slider {...settings}>
        {

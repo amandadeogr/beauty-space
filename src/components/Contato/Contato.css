@@ -13,3 +13,13 @@
    padding-top: 10rem;
    width: 75%;
 }
+
+@media (max-width: 912px) {
+   .contato {
+      height: auto;
+   }
+
+   .image {
+      display: none;
+   }
+}

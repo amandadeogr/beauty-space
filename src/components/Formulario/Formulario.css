@@ -2,8 +2,13 @@
    display: flex;
    flex-direction: column;
    justify-content: space-around;
-   height: 60vh;
+   height: auto;
    padding: 1rem;
+}
+
+.title {
+   margin: 1rem 0;
+   font-weight: 300
 }
 
 .text-area {
@@ -16,16 +21,17 @@
    height: 20vh;
 }
 
-.input {
-   border: none;
-   border-radius: 5px;
-   padding: .8rem 1rem;
-   margin: .3rem 0;
-   outline: none;
-   width: 20rem;
-}
-
 form button {
    margin-top: .5rem;
    width: 100%;
+}
+
+@media (max-width: 912px) {
+   .formulario {
+      height: auto;
+   }
+   .text-area {
+      width: 100%;
+   }
+   
 }

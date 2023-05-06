@@ -1,7 +1,7 @@
 .depoiments-container {
    background-color: #c29ea4;
    border-radius: 10px;
-   box-shadow: 0 0 3rem #a8858a;
+   box-shadow: 0 0 1.5rem #a8858a;
    margin: 4rem ;
    padding: 2rem;
    width: 80%;
@@ -40,4 +40,32 @@
    font-size: .9rem;
    margin-left: .1rem;
    width: 4rem;
+}
+
+@media (max-width: 912px) {
+   .depoiments-container {
+      width: 300px;
+      margin: 4rem 1rem;
+   }
+
+   .depoiments-description {
+      font-size: 1rem;
+   }
+}
+
+@media (max-width: 700px) {
+   .depoiments-container {
+      margin: 4rem auto;
+      width: 400px;
+   }
+
+}
+
+@media (max-width: 414px) {
+   .depoiments-container {
+      margin: 4rem auto;
+      padding: 1rem;
+      width: 230px;
+   }
+
 }

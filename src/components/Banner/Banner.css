@@ -23,3 +23,37 @@
 .banner-description {
    padding: 1rem 0;
 }
+
+@media (max-width: 540px) {
+
+   .banner-title {
+      font-size: 2rem;
+   }
+
+   .banner-description {
+      font-size: .8rem;
+   }
+
+   .banner-img {
+      height: auto;
+   }
+}
+
+@media (max-width: 414px) {
+   .banner {
+      flex-direction: column-reverse;
+   }
+
+   .banner-img {
+      width: 100%;
+   }
+
+   .banner-title {
+      text-align: center;
+   }
+
+   .right {
+      margin: 1rem 0;
+      width: 250px;
+   }
+}
