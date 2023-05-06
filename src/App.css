@@ -21,3 +21,9 @@ body {
 html {
    scroll-behavior: smooth;
 }
+
+section {
+   height: 100vh;
+   padding-top: 4rem;
+   width: 70%;
+}
