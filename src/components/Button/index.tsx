@@ -10,7 +10,7 @@ const Button = ({message, action} : Props) => {
 
    const handleClick = () => {
       if(action === 'whatsapp') {
-         window.location.href = `https://api.whatsapp.com/send?phone=${number}`
+         window.open(`https://api.whatsapp.com/send?phone=${number}`, '_blank');
       }
       
    }
