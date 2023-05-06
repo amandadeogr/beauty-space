@@ -5,7 +5,7 @@ const Menu = () => {
    const menuLinks = [
    {
       name: 'Home',
-      href: '#menu'
+      href: '#banner'
    },
    {
       name: 'Especialidades',
